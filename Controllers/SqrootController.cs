@@ -24,7 +24,7 @@ namespace SquareRoot.Controllers
             
             else if (firstNum == secondNum)
             {
-                ViewBag.Result = "Alert: The square root of both numbers are the same. Kindly input another set of numbers";
+                ViewBag.Result = "Alert: The square root of both numbers are the same. Kindly input another set of numbers.";
             }
             
             else
