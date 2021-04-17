@@ -8,6 +8,7 @@ using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Square_Root.Data;
 
 namespace SquareRoot
 {
@@ -24,6 +25,7 @@ namespace SquareRoot
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
+            services.AddScoped<ISquareRoot, Square_Root.Data.SquareRoot>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
