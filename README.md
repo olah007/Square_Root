@@ -1,2 +1,2 @@
 # Square_Root
-This Application compares the square root of two numbers and displays the result.
+This Application compares the square roots of two numbers and displays the result.
